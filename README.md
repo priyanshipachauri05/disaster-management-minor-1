@@ -34,23 +34,24 @@ Implementation details and experimental findings will be documented as the proje
 ### Technologies 
 
 o Python 
+
 o Machine Learning, Deep Learning Models
+
 o Image Processing
+
 o QGIS
 
 ### Planned work
 
 o Evaluate suitable datasets for different disaster types.
+
 o Develop and test image-analysis and damage-detection methods.
+
 o Explore geospatial visualization of the affected areas.
+
 o Investigate methods for rescue prioritization.
+
 o Integrate the components into a disaster-response support information.
-
-
-
-
-
-
 
 
 
