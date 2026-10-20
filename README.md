@@ -8,7 +8,15 @@ This project aims to develop a disaster-management platform that uses the satell
 
 The goal is to explore how computational techniques can help analyze disaster-affected areas, identify changes in infrastructure, and provide useful information for disaster-response teams.
 
-### Objectives
+### Research Motivation
+
+Natural disaster can affect large areas, making it difficult to assess damage and identify where assistance may be needed most. Remote sensing provides a way to observe affected regions, while computer vision could help extract useful information from imagery.
+
+However, detecting damage from satellite images is not straightforward. Results can depend on image resolution, the availability of pre-disaster imagery and the difference between training data and real-world imagery.
+
+This project investigates these challenges through small experiments before moving towards the integrating the individual components into a disaster-response support system.
+
+### Project Objectives
 
 The project focuses on five main objectives:
 
@@ -16,30 +24,33 @@ The project focuses on five main objectives:
 2. Damage Detection: Compare pre-disaster and post-disaster imagery to identify changes and estimate the extent of damage.
 3. Rescue Prioritisation: Explore ways to priorities affected areas using damage estimates, possible human presence, accessibility and available resources.
 4. Historical Data Analysis: Investigate how historical disaster information can support preparedness and future disaster planning.
-5. Reconstruction Planning: Explore how damage assessment and geospatial information can contribute to post-disaster reconstruction decisions.
 
-### Proposed Approach
+### Current Experimental Work
 
-The planned system brings together computer vision, image processing, machine learning and geospatial analysis.
+Development is currently focused on evaluating individual methods and understanding their limitations before integrating them into the larger system.
 
-This project will investigate methods for analysing disaster imagery, comparing changes between images, visualising affected areas using geospatial tools and supporting rescue prioritisation.
+The experimental works include:
 
-The specific models and methods will be refined through experimentation and then used in the main pipeline.
+o Exploring image-based change detection for comparing disaster imagery.
 
-### Current Progress
+o Evaluating building-damage classification using xBD dataset.
 
-This project is under development. Currently the main focus is to identify suitable models and methodology to be used in the platform by extensive experimentation to compare different approaches and identifying their limitations. 
-Implementation details and experimental findings will be documented as the project progresses.
+o Analysing class distribution.
+
+o Using density-based heatmaps to train the first CNN model and identifying the architectural        limitation of the model.
+
+Detailed experiment configurations, results, and observations will be documented alongside the relevant code.
 
 ### Technologies 
 
-o Python 
+o Python for experimental implementation and analysis.
 
-o Machine Learning, Deep Learning Models
+o Computer Vision and Image processing for image comparison and damage assessment.
 
-o Image Processing
+o Machine learning and Deep learning.
 
-o QGIS
+o QGIS for working with geographic information and visualising spatial results.
+
 
 ### Planned work
 
@@ -52,6 +63,3 @@ o Explore geospatial visualization of the affected areas.
 o Investigate methods for rescue prioritization.
 
 o Integrate the components into a disaster-response support information.
-
-
-
